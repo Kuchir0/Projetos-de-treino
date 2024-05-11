@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://freefrontend.com/assets/img/css-background-patterns/2023-3d-lighted-cubes-tessellated-pattern-pure-css.png); 
+    background-size: cover;
+    background-position: center;
+    color: #fff; 
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #00ff00;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.box {
+    width: 90%;
+    height: 90%;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra */
+    display: none; /* Começa escondidas */
+}
+
+.box.aberto {
+    display: flex; /* Exibe quando abertas */
+    flex-direction: column; 
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5); 
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
